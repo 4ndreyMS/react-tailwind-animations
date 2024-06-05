@@ -7,9 +7,9 @@ import PageTransition from "../components/pageTransition";
 const HomePage = () => {
   return (
     <>
-      <div className="bg-gradient-to-bl from-indigo-900 via-indigo-400 to-indigo-900 flex flex-col h-[100vh]">
+      <div className="bg-gradient-to-bl from-indigo-900 via-indigo-400 to-indigo-900 flex flex-col lg:h-dvh md:h-full">
         <div className="container mx-auto px-4 flex-grow flex flex-col justify-center">
-          <div className="grid grid-flow-col items-center">
+          <div className="grid lg:grid-cols-2 md:grid-cols-1 items-center">
             <section>
               <Title
                 color="text-white"
@@ -21,6 +21,7 @@ const HomePage = () => {
               />
             </section>
             <motion.section
+              className="flex justify-center"
               initial={{ y: "-20%" }}
               animate={{ y: 0 }}
               exit={{

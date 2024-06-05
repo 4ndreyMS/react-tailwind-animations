@@ -79,7 +79,7 @@ const ProductsPage = () => {
     <>
       <div className="bg-opacity-50 flex flex-col bg-gradient-to-bl from-indigo-900 via-indigo-400 to-indigo-900 py-4">
         <div className="container mx-auto px-4 ">
-          <Title color="text-white" title="Products Page" />
+          <Title color="text-white" title="Products" />
 
           {/* <Description
           description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
