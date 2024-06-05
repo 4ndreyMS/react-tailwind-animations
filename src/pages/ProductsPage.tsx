@@ -1,6 +1,4 @@
-import React from "react";
 import Title from "../components/title";
-import Description from "../components/description";
 import { Card, CardBody, CardHeader } from "@nextui-org/react";
 import { motion } from "framer-motion";
 import PageTransition from "../components/pageTransition";

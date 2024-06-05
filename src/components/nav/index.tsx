@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import reactSvg from "../../assets/react.svg";
 import { motion } from "framer-motion";

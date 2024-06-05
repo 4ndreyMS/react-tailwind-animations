@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
-import React from "react";
-import ReactSVG from "../assets/react.svg";
+
 import Title from "../components/title";
 import Description from "../components/description";
 import PageTransition from "../components/pageTransition";
